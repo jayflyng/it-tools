@@ -1,4 +1,4 @@
 name = "it-tools"
 account_id = "5d75b27951e0297bf07b6bbea4261075" # 控制台个人资料中获取
-main = "src/main.ts" # 指向Worker入口文件
+main = "src/worker.ts" # 指向Worker入口文件
 compatibility_date = "2025-12-30"
