@@ -112,5 +112,8 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
+    format: 'esm', // 解决 import.meta 不支持的问题
+    outDir: 'dist', // Cloudflare Pages 默认识别 dist 作为输出目录
+    minify: 'esbuild', // 精简打包体积
   },
 });
